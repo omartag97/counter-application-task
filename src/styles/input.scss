@@ -1,0 +1,80 @@
+.helper-text {
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+
+  &.primary {
+    border-color: #3498db;
+    &:hover {
+      border-color: white;
+      box-shadow: 2px 0px 34px -15px #3498db;
+    }
+
+    &:focus {
+      border: 2px solid #3498db;
+      transition: border-color 1s ease;
+    }
+  }
+
+  &.secondary {
+    border-color: #2ecc71;
+    &:hover {
+      border-color: white;
+      box-shadow: 2px 0px 34px -15px #2ecc71;
+    }
+
+    &:focus {
+      border: 2px solid #2ecc71;
+      transition: border-color 1s ease;
+    }
+  }
+
+  &.error {
+    border-color: #e74c3c;
+    &:hover {
+      border-color: white;
+      box-shadow: 2px 0px 34px -15px #e74c3c;
+    }
+
+    &:focus {
+      border: 2px solid #e74c3c;
+      transition: border-color 1s ease;
+    }
+  }
+
+  &.warning {
+    border-color: #f39c12;
+    &:hover {
+      border-color: white;
+      box-shadow: 2px 0px 34px -15px #f39c12;
+    }
+
+    &:focus {
+      border: 2px solid #f39c12;
+      transition: border-color 1s ease;
+    }
+  }
+
+  &.error {
+    border-color: #e74c3c;
+
+    &:hover {
+      box-shadow: 2px 0px 34px -15px #e74c3c;
+    }
+
+    &:focus {
+      border: 2px solid #e74c3c;
+      transition: border-color 1s linear;
+    }
+  }
+
+  &.focus {
+    outline: none;
+  }
+}
